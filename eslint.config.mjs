@@ -10,6 +10,6 @@ export default tseslint.config(
     files: ['**/*.ts', '**/*.tsx'],
   },
   {
-    ignores: ['node_modules/*', 'dist/*'],
+    ignores: ['node_modules/*', 'dist/*', 'release.config.cjs'],
   }
 );

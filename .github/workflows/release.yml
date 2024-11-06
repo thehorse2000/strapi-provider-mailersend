@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - release
-      - next
+      - main
 jobs:
   release:
     name: Release and Publish
