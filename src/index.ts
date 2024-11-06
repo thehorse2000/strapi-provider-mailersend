@@ -31,7 +31,7 @@ type TError = {
 
 const main = {
   provider: 'strapi-provider-mailersend',
-  name: 'Mailersend Provider',
+  name: 'MailerSend Provider',
   init(providerOptions: TProviderOptions, settings: TSettings) {
     assert(providerOptions.apiKey, 'Mailersend API key is required');
 
