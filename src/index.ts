@@ -68,7 +68,7 @@ const main = {
           .setSubject(options.subject)
           .setHtml(options.html || options.text)
           .setText(options.text || options.html)
-          .setAttachments(attachments);
+          .setAttachments(attachments ?? []);
 
         try {
           const response = await mailerSend.email.send(emailParams);

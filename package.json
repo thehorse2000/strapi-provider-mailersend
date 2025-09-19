@@ -45,26 +45,26 @@
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.13.0"
   },
-  "name": "strapi-provider-mailersend",
+  "name": "strapi-mailersend",
   "description": "MailerSend provider for strapi email plugin",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
-  "homepage": "https://github.com/dynolabs/strapi-provider-mailersend",
-  "readme": "https://github.com/dynolabs/strapi-provider-mailersend#readme",
+  "homepage": "https://github.com/thehorse2000/strapi-provider-mailersend",
+  "readme": "https://github.com/thehorse2000/strapi-provider-mailersend#readme",
   "bugs": {
-    "url": "https://github.com/dynolabs/strapi-provider-mailersend/issues",
-    "email": "dulajdeshans@gmail.com"
+    "url": "https://github.com/thehorse2000/strapi-provider-mailersend/issues",
+    "email": "amrosama5@gmail.com"
   },
   "repository": {
-    "url": "git+https://github.com/dynolabs/strapi-provider-mailersend.git",
+    "url": "git+https://github.com/thehorse2000/strapi-provider-mailersend.git",
     "type": "git",
     "directory": "."
   },
   "license": "MIT",
   "author": {
-    "name": "Dulaj Ariyaratne",
-    "email": "dulajdeshans@gmail.com",
-    "url": "https://github.com/dulajdeshan"
+    "name": "Amr Osama",
+    "email": "amrosama5@gmail.com",
+    "url": "https://github.com/thehorse2000"
   },
   "publishConfig": {
     "access": "public"
