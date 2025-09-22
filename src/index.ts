@@ -59,7 +59,7 @@ const main = {
 
         const recipients = [new Recipient(parsedTo.email, parsedTo.name)];
 
-        const attachments = options.attachments?.map((attachment) => new Attachment(attachment.content, attachment.filename, attachment.disposition ?? "attachment"));
+        const attachments = options.attachments?.map((attachment) => new Attachment(attachment.content, attachment.filename, attachment.disposition ?? "attachment")) ?? [];
 
         const emailParams = new EmailParams()
           .setFrom(sentFrom)
